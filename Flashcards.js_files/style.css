@@ -156,3 +156,22 @@ ul{margin-bottom:30px;line-height:1.5em;}
 .navbar.navbar-transparent{padding-top:10px;border-radius:0;background-color:rgba(0, 0, 0, 0.8);}
 .main-raised{margin-right:10px;margin-left:10px;}
 }
+
+#tap-here-overlay {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,0.9); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+#tap-here-overlay>img {
+    max-height: 130%;
+}

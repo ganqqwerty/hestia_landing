@@ -130,15 +130,21 @@
                         sometimes on the internet. Instead, I did a solid research and included the questions from the
                         following sources.</p>
                     <h3><strong>Questions that the interviewers google</strong></h3>
-                    <p>First of all, you may not believe it, but 8 out of 10 interviewers I asked confessed that they google
-                        the phrase “frontend interview questions” or “js interview questions” and later ask the questions
-                        during the interview. Damn, I even did it myself when I was interviewing people in our company!</p>
+                    <p>First of all, you may not believe it, but 8 out of 10 interviewers I asked confessed that they
+                        google
+                        the phrase “frontend interview questions” or “js interview questions” and later ask the
+                        questions
+                        during the interview. Damn, I even did it myself when I was interviewing people in our
+                        company!</p>
                     <h3><strong>Questions that the interviewers kept asking me</strong></h3>
-                    <p>I went to about 50 interviews myself to see if there’s a pattern to which questions the interviewers
-                        in various companies like to ask. At some point, the interviews became rather boring because they
+                    <p>I went to about 50 interviews myself to see if there’s a pattern to which questions the
+                        interviewers
+                        in various companies like to ask. At some point, the interviews became rather boring because
+                        they
                         all repeated themselves, I got a lot of questions that were EXACTLY the same.</p>
                     <h3><strong>Questions constantly reported to me by other developers</strong></h3>
-                    <p>I have a huge network of friends who got hired in great companies, and they regularly deliver me new
+                    <p>I have a huge network of friends who got hired in great companies, and they regularly deliver me
+                        new
                         questions. A lot of the stuff that the interviewer want you to know is the same from company to
                         company.
                     </p>
@@ -146,10 +152,16 @@
 
                 <div class="col-md-5">
                     <div class="card-container">
+                        <div id="tap-here-overlay" onclick="hideOverlay()">
+                            <img id="tap-here" src="./Flashcards.js_files/taphere.svg"
+                                                        width="100%">
+                        </div>
                         <div id="flashcard" onclick="toggleClass(this, 'flipped')">
                             <figure class="front">
                                 <div class="flashcard-category">
-                                    browser <i class="fa fa-circle" aria-hidden="true"></i> <i class="fa fa-circle" aria-hidden="true"></i> <i class="fa fa-circle" aria-hidden="true"></i>
+                                    browser <i class="fa fa-circle" aria-hidden="true"></i> <i class="fa fa-circle"
+                                                                                               aria-hidden="true"></i>
+                                    <i class="fa fa-circle" aria-hidden="true"></i>
                                 </div>
                                 <div class="flashcard-question">What is critical rendering path?</div>
                                 <div class="flashcard-number">
@@ -161,7 +173,8 @@
                                     <p>It's all that browser does to render the page:</p>
                                     <ul>
                                         <li>
-                                            Reads HTML character by character, turns them into tokens, then into nodes, then into DOM;
+                                            Reads HTML character by character, turns them into tokens, then into nodes,
+                                            then into DOM;
                                         </li>
                                         <li>
                                             Transforms CSS into a CSSOM tree;
@@ -173,7 +186,8 @@
                                             Applies relevant CSSOM rules to the nodes of the render tree;
                                         </li>
                                         <li>
-                                            Computes a layout to understand the size and position of each object on the page;
+                                            Computes a layout to understand the size and position of each object on the
+                                            page;
                                         </li>
                                         <li>
                                             Converts each node in the render tree to actual pixels on the screen.
@@ -299,8 +313,8 @@
 </div>
 
 <script>
-    function toggleClass(element, className){
-        if (!element || !className){
+    function toggleClass(element, className) {
+        if (!element || !className) {
             return;
         }
         var classString = element.className, nameIndex = classString.indexOf(className);
@@ -308,9 +322,13 @@
             classString += ' ' + className;
         }
         else {
-            classString = classString.substr(0, nameIndex) + classString.substr(nameIndex+className.length);
+            classString = classString.substr(0, nameIndex) + classString.substr(nameIndex + className.length);
         }
         element.className = classString;
+    }
+
+    function hideOverlay() {
+        document.getElementById("tap-here-overlay").style.display = "none";
     }
 
 </script>
