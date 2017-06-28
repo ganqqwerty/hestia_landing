@@ -175,3 +175,12 @@ ul{margin-bottom:30px;line-height:1.5em;}
 #tap-here-overlay>img {
     max-height: 130%;
 }
+
+.card-description {
+    font-size: 1.25em;
+    line-height: 1.5;
+}
+
+#cards-table-image {
+    margin-top: 10px;
+}
