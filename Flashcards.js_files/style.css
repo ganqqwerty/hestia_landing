@@ -1,6 +1,8 @@
 a{-webkit-transition:all 0.3s ease;transition:all 0.3s ease;}
 .btn{-webkit-transition:background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1);transition:background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1);transition:box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);transition:box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1);}
-body{color:#3c4858;background-color:#e5e5e5;font-family:"Ubuntu", "Helvetica", "Arial", sans-serif;font-weight:300;line-height:1.5em;direction:ltr;}
+body{color:#3c4858;background-color:#e5e5e5;font-family:"Ubuntu", "Helvetica", "Arial", sans-serif;font-weight:300;line-height:1.5em;direction:ltr;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing:grayscale }
 h1,
 h2,
 h3,
