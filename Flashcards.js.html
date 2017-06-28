@@ -155,8 +155,40 @@
                 <div class="col-md-5">
                     <div class="card-container">
                         <div id="flashcard" onclick="toggleClass(this, 'flipped')">
-                            <figure class="front" >1</figure>
-                            <figure class="back">2</figure>
+                            <figure class="front">
+                                <div class="flashcard-category">
+                                    browser <i class="fa fa-circle" aria-hidden="true"></i> <i class="fa fa-circle" aria-hidden="true"></i> <i class="fa fa-circle" aria-hidden="true"></i>
+                                </div>
+                                <div class="flashcard-question">What is critical rendering path?</div>
+                                <div class="flashcard-number">
+                                    <span>2B</span>
+                                </div>
+                            </figure>
+                            <figure class="back">
+                                <div class="answer-text-box">
+                                    <p>It's all that browser does to render the page:</p>
+                                    <ul>
+                                        <li>
+                                            Reads HTML character by character, turns them into tokens, then into nodes, then into DOM;
+                                        </li>
+                                        <li>
+                                            Transforms CSS into a CSSOM tree;
+                                        </li>
+                                        <li>
+                                            Creates a render tree from the visible DOM nodes;
+                                        </li>
+                                        <li>
+                                            Applies relevant CSSOM rules to the nodes of the render tree;
+                                        </li>
+                                        <li>
+                                            Computes a layout to understand the size and position of each object on the page;
+                                        </li>
+                                        <li>
+                                            Converts each node in the render tree to actual pixels on the screen.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </figure>
                         </div>
                     </div>
                 </div>

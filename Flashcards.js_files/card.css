@@ -20,12 +20,12 @@
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    line-height: 260px;
+    line-height: 3em;
+    padding-top: 2.5em;
     color: white;
     text-align: center;
-    font-weight: bold;
     font-family: "Ubuntu", "Times New Roman", serif;
-    font-size: 140px;
+    font-size: 2em;
 }
 
 #flashcard .front {
@@ -38,6 +38,33 @@
     color: #2b2b2b;
 
     transform: rotateY( 180deg );
+    font-size: 0.95em;
+    text-align: left;
+    padding: 1.5em;
+
+}
+.flashcard-category {
+    font-size: 0.4em;
+    line-height: normal;
+    text-align: left;
+    margin-left: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: +2px;
+}
+
+.flashcard-question {
+
+}
+
+.flashcard-number {
+    border-radius: 2px;
+    border: solid thin whitesmoke;
+    font-size: 0.4em;
+    max-width: 40px;
+    min-height: 20px;
+    line-height: normal;
+    margin-left: 3em;
+    padding: 3px;
 }
 
 #flashcard.flipped {
