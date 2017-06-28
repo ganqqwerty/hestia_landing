@@ -76,10 +76,10 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <h2 class="title">Focus on most common interview questions</h2>
-                    <h5 class="description">I gathered the questions that all the interviewers ask, so that you can
-                        concentrate get 80% of result for 20% of effort. I've been an interviewer at my job and I went
+                    <h5 class="description">I gathered the questions that all the interviewers ask, so that you get 80%
+                        of result for 20% of effort. I've been an interviewer at my job and I went
                         through 50+ interviews myself to figure out what is really important for people who make
-                        decision.</h5>
+                        decision. Every question became a little flashcard and now I have 160 of them.</h5>
                 </div>
             </div>
             <div class="row">
@@ -87,30 +87,31 @@
                     <div class="info">
                         <a href="http://188.226.136.35/#">
                             <div class="icon">
-                                <i class="fa fa-book"></i>
+                                <i class="fa fa-book" style="color: #99519f"></i>
                             </div>
                             <h4 class="info-title">Stop reading random JS books</h4>
                         </a>
                         <p>You have little time to prepare for the interview, so you need to focus on things that the
-                            interviewers really ask! </p>
+                            interviewers really ask! Start with the first 20 high-frequency questions and you will
+                            already look better than most of other candidates.</p>
                     </div>
                 </div>
                 <div class="col-md-4 feature-box" style="height: 328px;">
                     <div class="info">
                         <a href="http://188.226.136.35/#">
                             <div class="icon">
-                                <i class="fa fa-check"></i>
+                                <i class="fa fa-check" style="color: #20a69a"></i>
                             </div>
                             <h4 class="info-title">Check if you're ready</h4>
                         </a>
-                        <p>Are you sure that you know everything about asynchronous calls, closures, prototypes? </p>
+                        <p>Are you sure that you know everything about asynchronous calls, closures, prototypes? The flashcards are split into 6 groups covering all the aspects of JS programming.</p>
                     </div>
                 </div>
                 <div class="col-md-4 feature-box" style="height: 328px;">
                     <div class="info">
                         <a href="http://188.226.136.35/#">
                             <div class="icon">
-                                <i class="fa fa-support"></i>
+                                <i class="fa fa-support" style="color: #00adda"></i>
                             </div>
                             <h4 class="info-title">Get support from an expert</h4>
                         </a>
@@ -124,8 +125,8 @@
     <section class="about hestia-about " id="about" data-sorder="hestia_about">
         <div class="container">
             <div class="row hestia-about-content">
+                <h1>The questions</h1>
                 <div class="col-md-7">
-                    <h1>The questions</h1>
                     <p>I didn’t just write some random 150 questions from my head. That would be useless, and I see that
                         sometimes on the internet. Instead, I did a solid research and included the questions from the
                         following sources.</p>
@@ -152,11 +153,11 @@
 
                 <div class="col-md-5">
                     <div class="card-container">
-                        <div id="tap-here-overlay" onclick="hideOverlay()">
-                            <img id="tap-here" src="./Flashcards.js_files/taphere.svg"
-                                                        width="100%">
-                        </div>
                         <div id="flashcard" onclick="toggleClass(this, 'flipped')">
+                            <div id="tap-here-overlay">
+                                <img id="tap-here" src="./Flashcards.js_files/taphere.svg"
+                                     width="100%">
+                            </div>
                             <figure class="front">
                                 <div class="flashcard-category">
                                     browser <i class="fa fa-circle" aria-hidden="true"></i> <i class="fa fa-circle"
@@ -220,12 +221,30 @@
                         </div>
                         <div class="col-md-7">
                             <div class="content">
-                                <h4 class="card-title">Yuri Katkov</h4>
-                                <h6 class="category text-muted">CEO</h6>
-                                <p class="card-description">I'm Yuri Katkov. I grew up in a small miner village of
-                                    Russia and I was able to move to Switzerland to the most famous neuroscientific
-                                    project in the world because of my learning method.</p>
-
+                                <div class="card-description">
+                                    <p>I'm Yuri Katkov. I grew up in a small miner village of
+                                        Russia and I was able to move to Switzerland to the most famous neuroscientific
+                                        project in the world because of my learning method.
+                                    </p>
+                                    <p>
+                                        I was responsible for interviewing and hiring developers in our project so I know
+                                        the interview process from the inside. When I started to prepare for the interviews
+                                        I quickly realized that it's not enough to be a good developer to persuade the
+                                        company to hire you.
+                                    </p>
+                                    <p>
+                                        I tried to study the popular books (like Cracking the coding interview) but quickly
+                                        realized that they're only useful when you want to be hired at Google and
+                                        Facebook-like companies. Normal companies don't care about how good are you with the
+                                        algorithms, they ask completely different questions.
+                                    </p>
+                                    <p>
+                                        I often teach programming courses, and I know how to explain complex things using
+                                        simple terms. This is why I decided to create a simple method to prepare for the
+                                        interview using flashcards. I got a much higher paid job in a finance startup in
+                                        Switzerland and helped dozens of developers to reach their professional goals.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -327,9 +346,11 @@
         element.className = classString;
     }
 
-    function hideOverlay() {
-        document.getElementById("tap-here-overlay").style.display = "none";
-    }
+    document.getElementById("tap-here-overlay").addEventListener('click', function hideOverlay(event){
+        console.log(this);
+        this.style.display = "none";
+    }, false);
+
 
 </script>
 </body>
