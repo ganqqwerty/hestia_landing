@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 255.1 141.7" enable-background="new 0 0 255.1 141.7" xml:space="preserve">
+<g id="Layer_2" display="none">
+	<rect x="-1269" y="-814.3" display="inline" fill="#33439B" width="272.1" height="172.9"/>
+	<rect x="-1541.1" y="-987.2" display="inline" fill="#7A5649" width="272.1" height="172.9"/>
+	<rect x="-1269" y="-987.2" display="inline" fill="#00ADDB" width="272.1" height="172.9"/>
+	<rect x="-996.9" y="-987.2" display="inline" fill="#00ADDB" width="272.1" height="172.9"/>
+	<rect x="-1541.1" y="-814.3" display="inline" fill="#EB417A" width="272.1" height="172.9"/>
+	<rect x="-996.9" y="-814.3" display="inline" fill="#33439B" width="272.1" height="172.9"/>
+	<rect x="-1269" y="-641.4" display="inline" fill="#EB417A" width="272.1" height="172.9"/>
+	<rect x="-1541.1" y="-641.4" display="inline" fill="#EB417A" width="272.1" height="172.9"/>
+	<rect x="-996.9" y="-641.4" display="inline" fill="#EB417A" width="272.1" height="172.9"/>
+	<rect x="-1269" y="-295.6" display="inline" fill="none" width="272.1" height="172.9"/>
+	<rect x="-1541.1" y="-468.5" display="inline" fill="none" width="272.1" height="172.9"/>
+	<rect x="-1269" y="-468.5" display="inline" fill="none" width="272.1" height="172.9"/>
+	<rect x="-996.9" y="-468.5" display="inline" fill="none" width="272.1" height="172.9"/>
+	<rect x="-1541.1" y="-295.6" display="inline" fill="none" width="272.1" height="172.9"/>
+	<rect x="-996.9" y="-295.6" display="inline" fill="none" width="272.1" height="172.9"/>
+	<rect x="-1269" y="-122.7" display="inline" fill="none" width="272.1" height="172.9"/>
+	<rect x="-1541.1" y="-122.7" display="inline" fill="none" width="272.1" height="172.9"/>
+	<rect x="-996.9" y="-122.7" display="inline" fill="none" width="272.1" height="172.9"/>
+	<rect x="-1269" y="50.2" display="inline" width="272.1" height="172.9"/>
+	<rect x="-1541.1" y="50.2" display="inline" fill="none" width="272.1" height="172.9"/>
+	<rect x="-996.9" y="50.2" display="inline" fill="none" width="272.1" height="172.9"/>
+</g>
+<g id="Layer_1_1_">
+	<rect fill="#34459A" width="255.1" height="141.7"/>
+	<g>
+		<path fill="none" stroke="#FFFFFF" stroke-width="0.5" d="M33,120.7c0,1.1-0.9,2-2,2H19c-1.1,0-2-0.9-2-2v-7.4c0-1.1,0.9-2,2-2h12
+			c1.1,0,2,0.9,2,2V120.7z"/>
+		<text transform="matrix(1 0 0 1 20.104 120.0503)" fill="#FFFFFF" font-family="'Ubuntu'" font-size="8.5039px">01</text>
+	</g>
+	<text transform="matrix(1 0 0 1 16.4599 30.9228)" fill="#FFFFFF" font-family="'Ubuntu-Medium'" font-size="6px">BROWSER</text>
+	<g>
+		<path fill="#FFFFFF" d="M25.3,0c0,2.3-1.9,4.3-4.3,4.3c-2.3,0-4.3-1.9-4.3-4.3"/>
+		<path fill="#FFFFFF" d="M38.1,0c0,2.3-1.9,4.3-4.3,4.3c-2.3,0-4.3-1.9-4.3-4.3"/>
+		<path fill="#FFFFFF" d="M50.8,0c0,2.3-1.9,4.3-4.3,4.3c-2.3,0-4.3-1.9-4.3-4.3"/>
+		<polygon fill="#FFFFFF" points="16.8,0 25.3,0 25.3,0 		"/>
+		<polygon fill="#FFFFFF" points="29.5,0 38,0 38,0 		"/>
+		<polygon fill="#FFFFFF" points="42.3,0 50.8,0 50.8,0 		"/>
+	</g>
+	<text transform="matrix(1 0 0 1 15.1557 57.3933)" fill="#FFFFFF" font-family="'Ubuntu'" font-size="24px">What’s</text>
+	<text transform="matrix(1 0 0 1 95.9557 57.3933)" fill="#FFFFFF" font-family="'Ubuntu'" font-size="24px">critical </text>
+	<text transform="matrix(1 0 0 1 15.1557 86.1933)" fill="#FFFFFF" font-family="'Ubuntu'" font-size="24px">rendering path?</text>
+</g>
+</svg>
