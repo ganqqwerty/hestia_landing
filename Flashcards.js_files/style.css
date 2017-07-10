@@ -30,7 +30,7 @@ h2.title{margin-bottom:30px;}
 .carousel .buttons a{padding:17px 35px;font-size:14px;}
 .description,
 .card-description,
-.footer-big{color:#999;}
+.footer-big{color:#424242;}
 .container{max-width:100%;}
 *{-webkit-tap-highlight-color:transparent;-webkit-tap-highlight-color:rgba(255, 255, 255, 0);}
 img{max-width:100%;}
@@ -96,7 +96,7 @@ ul{margin-bottom:30px;line-height:1.5em;}
 .team,
 .testimonials,
 .contactus{padding:40px 0;}
-.hestia-about{color:#999;background-attachment:fixed;font-weight:300;}
+.hestia-about{color:#424242;background-attachment:fixed;font-weight:300;}
 .hestia-about h1,
 .hestia-about h3{color:#3c4858;font-family:"Roboto Slab", "Times New Roman", serif;font-weight:700;text-decoration:none;word-wrap:break-word;}
 .hestia-about p{font-size:1.25em;line-height:1.55em;}
@@ -105,10 +105,10 @@ ul{margin-bottom:30px;line-height:1.5em;}
 .features .info p{font-size:16px;}
 .features .info .info-title{font-size:1.3em;}
 .info{max-width:360px;}
-.info .icon{color:#999;}
+.info .icon{color:#424242;}
 .info .icon > i{font-size:4.4em;}
 .info .info-title{margin:30px 0 15px;color:#3c4858;}
-.info p{color:#999;}
+.info p{color:#424242;}
 .team .card{text-align:left;}
 .footer-big{padding:30px 0;text-align:center;}
 .footer-big ul{margin-bottom:0;padding:0;list-style:none;}
