@@ -16,11 +16,13 @@
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata>
     <defs
      id="defs5100">
-        <style>
-@font-face {
-    font-family: "Ubuntu";
-    src: url('https://fonts.googleapis.com/css?family=Ubuntu');
-}
+        <style type="text/css"><![CDATA[
+           @font-face {
+        font-family: "Ubuntu";
+        src: url("Flashcards.js_files/fonts/Ubuntu-Regular.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+    }]]>
 </style>
 
         <clipPath
