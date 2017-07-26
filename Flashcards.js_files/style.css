@@ -20,13 +20,13 @@ h5{margin-bottom:15px;font-size:1.25em;line-height:1.55em;}
 h6{font-size:0.9em;font-weight:500;text-transform:uppercase;}
 .title,
 .card-title,
-.info-title{font-family:"Roboto Slab", "Times New Roman", serif;font-weight:700;}
+.info-title{font-family:"Ubuntu", "Roboto Slab", "Times New Roman", serif;font-weight:700;}
 .title,
 .card-title,
 .info-title{color:#3c4858;text-decoration:none;word-wrap:break-word;}
 h2.title{margin-bottom:30px;}
 .carousel h2.title{margin-bottom:20px;font-family:"Ubuntu", "Helvetica", "Arial", sans-serif;font-size:4.8em;line-height:1.15em;}
-.carousel h4{margin-bottom:60px;font-family:"Roboto Slab", "Times New Roman", serif;font-size:1.3em;line-height:1.4em;}
+.carousel h4{margin-bottom:60px;font-family:"Ubuntu", "Roboto Slab", "Times New Roman", serif;font-size:1.3em;line-height:1.4em;}
 .carousel .buttons a{padding:17px 35px;font-size:14px;}
 .description,
 .card-description,
@@ -98,7 +98,7 @@ ul{margin-bottom:30px;line-height:1.5em;}
 .contactus{padding:40px 0;}
 .hestia-about{color:#424242;background-attachment:fixed;font-weight:300;}
 .hestia-about h1,
-.hestia-about h3{color:#3c4858;font-family:"Roboto Slab", "Times New Roman", serif;font-weight:700;text-decoration:none;word-wrap:break-word;}
+.hestia-about h3{color:#3c4858;font-family:"Ubuntu", "Roboto Slab", "Times New Roman", serif;font-weight:700;text-decoration:none;word-wrap:break-word;}
 .hestia-about p{font-size:1.25em;line-height:1.55em;}
 .features{padding:80px 0 50px;text-align:center;}
 .features .info{margin:0 auto;padding:70px 0 30px;}
@@ -187,4 +187,29 @@ ul{margin-bottom:30px;line-height:1.5em;}
 
 #moneyback_text {
     font-size: 1.25em;
+}
+
+.price {
+    font-size:70px;
+    line-height: normal;
+}
+
+
+.price>.currency {
+    font-size: 50%;
+}
+.price>.amount {
+    font-size: 50%;
+}
+
+.footer {
+    text-align: center;
+}
+
+.pixel-paypal {
+    max-height: 1px;
+    max-width: 1px;
+}
+.payment-icons {
+    font-size: 20px;
 }
