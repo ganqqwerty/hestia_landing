@@ -35,12 +35,4 @@
 			id="circ-anim"
       />
 </circle>
-  <text class="text" x="90" y="70"
-        style="opacity:0.15;fill:#000;"
-        font-family="Ubuntu, Helvetica Neue"
-        font-weight="bold"
-        font-size="55">
-    Tap here
-  </text>
-
 </svg>
