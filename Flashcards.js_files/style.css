@@ -694,11 +694,11 @@ ul {
     line-height: 1.5;
 }
 
-#cards-table-image {
+.cards-table-image {
     margin-top: 10px;
 }
 
-#moneyback_text {
+.content>p {
     font-size: 1.25em;
 }
 
