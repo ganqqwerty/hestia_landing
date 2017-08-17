@@ -13,6 +13,7 @@ a {
 body {
     color: #3c4858;
     background-color: #e5e5e5;
+    font-size: 14px;
     font-family: "Ubuntu", "Helvetica", "Arial", sans-serif;
     font-weight: 300;
     line-height: 1.5em;
@@ -493,6 +494,9 @@ ul {
 .footer-big .footer-menu li a {
     padding: 15px;
 }
+.footer-big .content {
+    text-align: left;
+}
 
 .footer-black {
     background: #232323;
@@ -511,6 +515,14 @@ ul {
 .footer-black a:hover,
 .footer-black a:focus {
     opacity: 1;
+}
+
+.footer-black h5, .footer-black h4, .footer-black i, .footer-black .copyright {
+    color: #fff;
+}
+
+.footer-big p {
+    color: #999999;
 }
 
 .blog-post {
@@ -702,6 +714,9 @@ ul {
     font-size: 1.25em;
 }
 
+.content>ul {
+    font-size: 1.25em;
+}
 .price {
     font-size: 70px;
     line-height: normal;
