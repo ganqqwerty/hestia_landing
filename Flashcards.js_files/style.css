@@ -669,6 +669,12 @@ ul {
 }
 
 @media (max-width: 480px) {
+    h1 {
+        font-size: 2.8em;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
     .card-description {
         margin-top: 10px;
         margin-left: 0;
@@ -707,7 +713,8 @@ ul {
 }
 
 .cards-table-image {
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .content>p {
