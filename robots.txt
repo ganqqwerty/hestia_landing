@@ -1,0 +1,2 @@
+User-agent: Googlebot-Image
+Disallow: ./Flashcards.js_files/taphere.svg
