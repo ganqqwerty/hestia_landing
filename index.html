@@ -9,8 +9,27 @@
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="stylesheet" type="text/css" href="Flashcards.js_files/css.css">
     <title>Javascript Popular Interview Questions | Flashcards.js</title>
-    <meta name="Description" content="A deck of flashcards to help javascript developers with preparing for a frontend job interview. Save your time and focus on the most popular interview questions">
-    <meta name="Keywords" content="flashcards, job interview, javascript, frontend">
+    <meta name="description" content="A deck of flashcards to help javascript developers with preparing for a frontend job interview. Save your time and focus on the most popular interview questions">
+    <meta name="keywords" content="flashcards, job interview, javascript, frontend">
+    <meta name="robots" content="index, follow">
+    <meta name="application-name" content="Flashcards.js"/>
+    <meta name="msapplication-TileColor" content="#1e2636"/>
+    <meta name="msapplication-square70x70logo" content="http://flashcardsjs.com/Flashcards.js_files/three_cards.svg"/>
+    <link rel="apple-touch-icon" href="http://flashcardsjs.com/Flashcards.js_files/three_cards.svg">
+    <meta property="og:type" content="product">
+    <meta property="og:title" content="Flashcards.js">
+    <meta property="og:url" content="http://flashcardsjs.com">
+    <meta property="og:image" content="http://flashcardsjs.com/Flashcards.js_files/cards/bigscreen/cards_swiss_cup_laptop/cards_swiss_cup_laptop_j4dpqd_c_scalew_1400.jpg">
+    <meta property="og:image" content="http://flashcardsjs.com/Flashcards.js_files/cards/bigscreen/answer-deck.jpg">
+    <meta property="og:image" content="http://flashcardsjs.com/Flashcards.js_files/cards/bigscreen/ultimate_deck.jpg">
+    <meta property="og:image" content="http://flashcardsjs.com/Flashcards.js_files/cards/bigscreen/ultimate_deck.jpg">
+    <meta property="og:image" content="http://flashcardsjs.com/Flashcards.js_files/cards/bigscreen/training_flashcards_js.jpg">
+    <meta property="product:price:amount" content="30">
+    <meta property="product:price:currency" content="EUR">
+    <meta name="twitter:card" content="product">
+    <meta name="twitter:site" content="@ganqqwerty">
+    <meta name="twitter:title" content="Flashcards.js">
+    <meta name="twitter:description" content="A deck of cards for preparation for the Javascript interview.">
     <link rel="dns-prefetch" href="http://fonts.googleapis.com/">
     <link rel="stylesheet" href="./Flashcards.js_files/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -136,8 +155,10 @@
                     <div class="card-container">
                         <div id="flashcard" onclick="toggleClass(this, 'flipped')">
                             <div id="tap-here-overlay">
-                                <img id="tap-here" src="./Flashcards.js_files/taphere.svg"
-                                     width="10%">
+                                <div id="tap-here"
+                                     aria-label="Tap here to see how it works"
+                                   class="btn btn-primary"
+                                >See in action</div>
                             </div>
                             <figure class="front">
                                 <img src="./Flashcards.js_files/card_front.svg" style="width: 100%"
@@ -211,7 +232,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-5 col-md-offset-1">
+            <div class="col-md-4 ">
                 <div class="card card-testimonial card-plain">
                     <div class="card-avatar">
                         <img class="img" src="./Flashcards.js_files/testimonials/gonik.jpg"
@@ -228,7 +249,7 @@
 
                 </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-4">
                 <div class="card card-testimonial card-plain">
                     <div class="card-avatar">
                         <img class="img" src="Flashcards.js_files/testimonials/golybev.jpg"
@@ -246,21 +267,11 @@
 
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section class="testimonials container" id="testimonials" data-sorder="hestia_testimonials">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center">
-                <h2 class="title" id="happy-users">Happy users</h2>
-                <h5 class="description">My method already helped people to get the jobs they had dreamed of.</h5>
-            </div>
-        </div>
-        <div class="row">
             <div class="col-md-4" style="height: 413px;">
                 <div class="card card-testimonial card-plain">
                     <div class="card-avatar">
-                        <img class="img" src="./Flashcards.js_files/testimonials/shapel.jpg" alt="Andrew Shapel"
+                        <img class="img" src="./Flashcards.js_files/testimonials/shapel.jpg"
+                             alt="Andrew Shapel"
                              title="Andrew Shapel">
                     </div>
                     <div class="content">
@@ -272,10 +283,22 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4" style="height: 413px;">
+        </div>
+    </section>
+
+    <section class="testimonials container" id="testimonials" data-sorder="hestia_testimonials">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <h2 class="title" id="happy-users">Happy users</h2>
+                <h5 class="description">My method already helped people to get the jobs they had dreamed of.</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1" style="height: 413px;">
                 <div class="card card-testimonial card-plain">
                     <div class="card-avatar">
-                        <img class="img" src="Flashcards.js_files/testimonials/kim.jpg" alt="Anastasia Kim"
+                        <img class="img" src="Flashcards.js_files/testimonials/kim.jpg"
+                             alt="Anastasia Kim"
                              title="Anastasia Kim">
                     </div>
                     <div class="content">
@@ -288,7 +311,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4" style="height: 413px;">
+            <div class="col-md-5" style="height: 413px;">
                 <div class="card card-testimonial card-plain">
                     <div class="card-avatar">
                         <img class="img" src="Flashcards.js_files/cards/6.jpg" alt="Eugene Gostyukhin"
@@ -330,7 +353,7 @@
 
                                 <span class="shop-item-title-link"
                                       title="A deck of flashcards.js"
-                                      target="_self">Essential deck</span>
+                                      >Essential deck</span>
 
                             </h4>
 
@@ -351,8 +374,8 @@
                                       target="_top">
                                     <input type="hidden" name="cmd" value="_s-xclick">
                                     <input type="hidden" name="hosted_button_id" value="CXWVK3F8QZ65Q">
-                                    <button type="submit" class="btn btn-primary btn-lg" border="0" name="submit"
-                                            alt="PayPal - The safer, easier way to pay online!">Buy
+                                    <button  class="btn btn-primary btn-lg" border="0" name="submit"
+                                            aria-label="Buy essential deck">Buy
                                     </button>
                                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
                                          width="1" height="1" class="pixel-paypal">
@@ -403,7 +426,7 @@
                                     <input type="hidden" name="cmd" value="_s-xclick">
                                     <input type="hidden" name="hosted_button_id" value="KQVS37RYF6JUU">
                                     <button type="submit" class="btn btn-primary btn-lg" border="0" name="submit"
-                                            alt="PayPal - The safer, easier way to pay online!">Buy
+                                            aria-label="Buy ultimate deck">Buy
                                     </button>
                                 </form>
                                 <div class="payment-icons">
@@ -456,7 +479,7 @@
                                     <input type="hidden" name="cmd" value="_s-xclick">
                                     <input type="hidden" name="hosted_button_id" value="JVL5DX8VZV5Q8">
                                     <button type="submit" class="btn btn-primary btn-lg" border="0" name="submit"
-                                            alt="PayPal - The safer, easier way to pay online!">Buy
+                                            aria-label="Buy a course">Buy
                                     </button>
                                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
                                          width="1" height="1" class="pixel-paypal">
@@ -594,7 +617,6 @@ Flashcards.js_files/cards/bigscreen/cards_swiss_cup_laptop/cards_swiss_cup_lapto
                                 allowtransparency="true" class="lightwidget-widget"
                                 style="width: 100%; border: 0; overflow: hidden;"></iframe>
 
-                        </iframe>
                     </div>
                 </div>
 
@@ -686,7 +708,7 @@ Flashcards.js_files/cards/bigscreen/cards_swiss_cup_laptop/cards_swiss_cup_lapto
   "brand": "Flashcards.js",
   "name": "Flashcards.js Essential Deck",
   "image": "http://flashcardsjs.com/Flashcards.js_files/cards/bigscreen/essential_deck.jpg",
-  "description": "A deck of 54 most frequently asked interview questions on Javascript and Frontend development."
+  "description": "A deck of 50 most frequently asked interview questions on Javascript and Frontend development."
 }
  </script>
 </body>
