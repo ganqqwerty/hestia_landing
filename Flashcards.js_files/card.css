@@ -1,0 +1,84 @@
+.card-container {
+    width: 100%;
+    /*height: 275px;*/
+    position: relative;
+    perspective: 800px;
+}
+
+.card-container:after {
+    padding-top: 56.25%;
+    /* 16:9 ratio */
+    display: block;
+    content: '';
+}
+
+#flashcard {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    -webkit-transition-timing-function: ease; /* Safari and Chrome */
+    transition-timing-function: ease;
+}
+
+#flashcard figure {
+    margin: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+#flashcard .front {
+
+}
+#flashcard .back {
+    transform: rotateY( 180deg );
+    font-size: 90%;
+    text-align: left;
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+    #flashcard .back {
+        font-size: 50%;
+    }
+    #flashcard figure {
+        font-size: 110%;
+    }
+}
+
+
+.flashcard-category {
+    font-size: 0.4em;
+    line-height: normal;
+    text-align: left;
+    margin-left: 7%;
+    text-transform: uppercase;
+    letter-spacing: +2px;
+}
+
+.flashcard-question {
+    margin-left: 7%;
+
+}
+
+.flashcard-number {
+    border-radius: 2px;
+    border: solid thin whitesmoke;
+    font-size: 0.4em;
+    max-width: 40px;
+    min-height: 20px;
+    line-height: normal;
+    text-align: center;
+    margin-left: 7%;
+    padding: 3px;
+}
+
+#flashcard.flipped {
+    transform: rotateY( 180deg );
+}
