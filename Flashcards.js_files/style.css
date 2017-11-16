@@ -3659,6 +3659,7 @@ ul {
 .cards-table-image {
     margin-top: 5px;
     margin-bottom: 5px;
+    width: 100%;
 }
 
 .content > p {
