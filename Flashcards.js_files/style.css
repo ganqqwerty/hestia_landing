@@ -3499,6 +3499,10 @@ ul {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.blackfriday-header::before {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
 .header-filter .container {
     position: relative;
     z-index: 2;
